@@ -18,8 +18,11 @@ The implementation supports:
 ---
 
 We designed three user-space programs:
+
 `test1.c`: Mix of I/O-bound and CPU-bound processes 
+
 `test2.c`: Demonstrates effectiveness of aging and priority boosting 
+
 `test3.c`: Demonstrates how a process can game the scheduler by yielding early 
 
 Each test includes a **timeline graph** showing:
